@@ -5,9 +5,9 @@ RUN @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -I
 RUN choco install -y git.install
 # --version=2.7.18
 RUN choco install -y python2
-# --version=3.10.1
+# --version=3.10.4
 RUN choco install -y python3
-# --version=2.15.1
+# --version=2.16.2
 RUN choco install -y dart-sdk
 RUN choco install -y kb3118401
 RUN choco install -y powershell-core

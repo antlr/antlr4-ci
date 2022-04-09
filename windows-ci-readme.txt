@@ -6,6 +6,5 @@ To instantiate a runner, you need to:
  - open a console to the docker instance (via Docker desktop)
  - cd actions-runner
  - powershell ./config.cmd --url https://github.com/antlr/antlr4 --token <SOME_TOKEN_HERE>
- - powershell ./run.cmd
-
+Install as a service, it will run automatically
 
